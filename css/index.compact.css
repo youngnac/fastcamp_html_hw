@@ -1,0 +1,81 @@
+nav#header-bar { width: 768px; margin: 0 auto; position: fixed; top: 0; border-bottom: 1px black solid; z-index: 9999; background-color: white; }
+
+nav#header-bar button#side-menu-open { float: left; width: 50px; height: 50px; margin: 0; position: relative; top: 0; left: 0; background-color: white; border: none; }
+
+nav#header-bar h1#header { margin: 0 309px 0 259px; height: 50px; width: 150px; color: pink; float: left; position: relative; background: url(https://t1.daumcdn.net/makers/images/css/m320/tit_makers_170102.png); background-position: 0 -1344px; display: block; background-repeat: no-repeat; }
+
+#contents { box-sizing: border-box; position: relative; margin: 0 auto; top: 50px; width: 100%; background-color: #d9d9d9; }
+
+#contents img#first-banner { width: 100%; margin-top: 8px; }
+
+#contents div#weekly-order { background-color: white; margin: 0 auto; height: 760px; width: 100%; box-sizing: border-box; }
+
+#contents div#weekly-order #weekly-title { line-height: 1.5; font-size: 20px; font-weight: bold; }
+
+#contents div#weekly-order .info-text { display: block; margin-bottom: 8px; }
+
+#contents div#weekly-order div#weekly-item { border: 1px #d9d9d9 solid; width: 600px; height: 560px; margin: 30px auto; background-color: white; }
+
+#contents div#weekly-order div#weekly-item img { position: relative; display: block; left: -8px; width: 616px; margin: 0 auto; }
+
+#contents div#weekly-order div#weekly-item div#weekly-info { position: relative; top: -45px; width: 94%; margin: 0 auto; }
+
+#contents div#weekly-order div#weekly-item div#weekly-info span.likes { box-sizing: border-box; display: inline-block; width: 14px; height: 15px; line-height: 1.5px; background-image: url(https://t1.daumcdn.net/makers/images/css/m640/ico_makers_170102.png); background-size: 240px 780px; background-position: -86px -632px; overflow: hidden; color: #d5442e; position: relative; top: 2px; margin-right: 6px; }
+
+#contents div#weekly-order div#weekly-item span.order-badge { position: relative; display: table; right: -520px; top: -40px; width: 75px; height: 75px; border-radius: 75px; font-size: 17px; font-weight: 300; line-height: 19px; color: #fff; background-color: #d5442e; text-align: center; vertical-align: middle; }
+
+#contents #item-wrap { position: relative; }
+
+#contents #item-wrap .left-card { margin-right: 8px; }
+
+#contents #item-wrap .item-card { margin-top: 4px; background-color: white; box-sizing: border-box; float: left; width: 380px; }
+
+#contents #item-wrap .item-card > .img-wrap { box-sizing: border-box; }
+
+#contents #item-wrap .item-card > .img-wrap span.item-badge { position: relative; display: table; right: -290px; top: -40px; width: 75px; height: 75px; border-radius: 75px; font-size: 17px; font-weight: 300; line-height: 19px; color: #fff; background-color: #d5442e; text-align: center; vertical-align: middle; }
+
+#contents #item-wrap .item-card > .img-wrap > a img.product-img { width: 380px; height: 280px; }
+
+.item-info { position: relative; top: -30px; padding: 0 10px; }
+
+.item-info span.item-bar { letter-spacing: -1.5px; font-weight: bold; }
+
+.item-info span.item-likes { box-sizing: border-box; display: inline-block; width: 14px; height: 15px; line-height: 1.5px; background-image: url(https://t1.daumcdn.net/makers/images/css/m640/ico_makers_170102.png); background-size: 240px 780px; background-position: -86px -632px; overflow: hidden; color: #d5442e; position: relative; top: 2px; margin-right: 6px; }
+
+.item-info span.item-info-txt a.readmore { font-size: 0.6rem; color: #d6d6d6; text-decoration: underline; }
+
+#bottom-bar { height: 120px; }
+
+#bottom-bar #list-wrap { height: 160px; position: relative; top: 15px; background-color: #3d3d3d; }
+
+#bottom-bar #list-wrap ul { position: relative; top: 24px; width: 243px; height: 42px; padding: 0; list-style: none; margin: 0 auto; }
+
+#bottom-bar #list-wrap ul .list-1 { margin-right: 60px; }
+
+#bottom-bar #list-wrap ul li { margin: 0; float: left; width: 41px; height: 41px; }
+
+#bottom-bar #list-wrap ul li a { text-decoration: none; display: inline-block; width: 41px; height: 41px; }
+
+#bottom-bar #list-wrap ul li a .icon-img2 { line-height: 41px; display: block; background-size: 240px 780px; }
+
+#bottom-bar #list-wrap ul li a #katalk-img { background-position: 0 -674px; background-image: url(https://t1.daumcdn.net/makers/images/css/m640/ico_makers_170102.png); }
+
+#bottom-bar #list-wrap ul li a #kastory-img { background-image: url(https://t1.daumcdn.net/makers/images/css/m640/ico_makers_170102.png); background-position: -42px -674px; }
+
+#bottom-bar #list-wrap ul li a #facebook-img { background-image: url(https://t1.daumcdn.net/makers/images/css/m640/ico_makers_170102.png); background-position: -84px -674px; }
+
+#bottom-bar #url-copy-box { display: block; overflow: hidden; width: 270px; margin: 0 auto; padding: 6px 0; border: 1px solid #383838; background-color: #474747; position: relative; top: -65px; }
+
+#bottom-bar #url-copy-box span#kakao-url { float: left; width: 144px; border: 0 none; font-size: 11px; color: #999; line-height: 23px; background-color: #474747; text-align: center; }
+
+#bottom-bar #url-copy-box > strong { float: left; position: relative; padding: 0 14px; font-size: 11px; line-height: 23px; color: #616161; }
+
+#bottom-bar #url-copy-box > strong:after { right: 0; top: 4px; width: 1px; height: 13px; background-color: #404040; content: ''; }
+
+footer { position: relative; top: 120px; margin-left: 4px; }
+
+footer a#footer-left { float: left; text-decoration: none; color: #888; font-weight: lighter; font-size: 1.1rem; }
+
+footer ul#footer-right { list-style: none; }
+
+footer ul#footer-right li { margin-left: 13px; color: #888; float: right; }

@@ -1,0 +1,14 @@
+.clearfix:after {
+  clear: both;
+  display: block;
+  height: 0;
+  content: " "; }
+
+.clearfix:before {
+  clear: both;
+  display: block;
+  height: 0;
+  content: " "; }
+
+.pointer:hover {
+  cursor: pointer; }
